@@ -1,0 +1,92 @@
+.skills {
+    
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color:#f9f9f9;
+
+    .row {
+        width:100%;
+        @media (min-width: 768px) {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            }
+        .col-lg-6 {
+            margin-bottom: 32px;
+            @media (min-width: 768px) {
+               width:42%;
+               padding-left: 16px;
+               padding-right: 16px;
+                }
+            .skills_text {
+                h1 {
+                    font-size: 50px;
+                    text-align: center;
+                    font-weight: 400;
+                    padding-bottom: 16px;
+                    line-height: 1.1;
+                    @media (min-width: 768px) {
+                        font-size: 64px;
+                        line-height: 1.5;
+                        text-align: left;
+                        }
+                }
+
+                p {
+                    color: #454545;
+                    margin-bottom: 6.44px;
+                    font-size: 15px;
+                    line-height: 1.2;
+                    text-align: center;
+                    @media (min-width: 768px) {
+                        font-size: 20px;
+                        line-height: 1.5;
+                        text-align: left;
+                        }
+                }
+            }
+        }
+        .col-lg-6{
+            padding-top: 24px;
+            @media (min-width: 768px) {
+              width: 50%;
+              padding-left: 16px;
+              padding-right: 16px;
+                }
+            .progress {
+                height: 60px;
+                display: block;
+                background: none;
+                margin-bottom: 48px;
+
+                .skill {
+                    padding: 0;
+                    margin: 0 0 6px 0;            
+                    display: block;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #232323;
+
+                    .val {
+                        float: right;
+                        font-style: normal;
+                    }
+                }
+
+                .progress_bar {
+                    background:rgba(206, 206, 206, 0.4);
+                    height: 10px;
+                    border-radius: 50px;
+
+                    .progress-line {
+                        height: 10px;
+                        transition: 0.9s;
+                        background-color:#ffcc01;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+}

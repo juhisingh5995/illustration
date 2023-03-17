@@ -1,0 +1,188 @@
+header {
+    background: #f8f9fa;
+
+    .mobile-nav {
+        display: block;
+
+        @media (min-width: 992px) {
+            display: none;
+        }
+
+        .mobile-link {
+            display: flex;
+            justify-content: space-between;
+            padding: 18px 0;
+
+            .navbar_brand {
+                .logo {
+                    line-height: 50px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    vertical-align: -4px;
+                    font-size: 28px;
+                    align-items: center;
+                    margin-right: 0;
+                    padding: 10px 0;
+                }
+            }
+
+            .left-link {
+                display: flex;
+                height: 30px;
+                align-items: center;
+
+                .hamburger {
+                    .line {
+                        width: 30px;
+                        height: 2px;
+                        background-color: #000000;
+                        margin: 5px 0;
+
+                    }
+                }
+            }
+        }
+
+        .mbl-link {
+            display: none;
+
+            &.mbl-list {
+                display: block;
+            }
+
+            ul {
+                border-right: 2px solid gray;
+                text-align: center;
+                height: auto;
+
+                .nav-item {
+                    list-style: none;
+                    padding: 20px;
+
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        color: black;
+
+                        &.icons {
+                            flex-wrap: nowrap;
+                            display: flex;
+                            justify-content: center;
+                            padding-left: 16px;
+                            padding-right: 16px;
+                            gap: 24px;
+                            padding-top: 5px;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .nav-items {
+                    list-style: none;
+                    padding-bottom: 30px;
+
+                    a {
+
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        color: black;
+                    }
+                }
+            }
+
+        }
+    }
+
+    // desktop
+    .navbar {
+        display: none;
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+
+        .navbar-link {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            min-height: 100px;
+            justify-content: space-between;
+
+            .navbar_brand {
+                .logo {
+                    min-height: 70px;
+                    align-items: center;
+                    margin-right: 0;
+                    padding: 10px 0;
+                    transition: all 0.3s;
+                    font-weight: 700;
+                    font-size: 34px;
+                    text-decoration: none;
+                }
+            }
+
+            .nav-link {
+
+                ul {
+                    justify-content: center;
+                    display: flex;
+                    align-items: baseline;
+                    text-align: center;
+                    height: auto;
+
+
+                    .nav-item {
+                        list-style: none;
+                        padding: 22px;
+
+
+                        a {
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 1.5;
+                            color: black;
+
+                            &.icons {
+                                flex-wrap: nowrap;
+                                display: flex;
+                                justify-content: center;
+                                padding-left: 16px;
+                                padding-right: 16px;
+                                gap: 24px;
+                                font-size: 24px;
+                                padding-top: 5px;
+                                text-align: center;
+                            }
+
+                            &.button {
+                                padding: 6px 18px;
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .nav-items {
+                        list-style: none;
+                       
+
+                        a {
+
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 1.5;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

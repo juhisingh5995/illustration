@@ -1,0 +1,56 @@
+.about_us_section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:#f9f9f9;
+    margin-bottom: 32px;
+
+    .my_container {
+        max-width: 1000px;
+        padding: 0 32px;
+
+        .about_us_text {
+            display: flex;
+            flex-wrap: wrap;
+
+            .about_us_heading {
+                width: 100%;
+
+                h1 {
+                    border-bottom: 1px solid #343a40;
+                    color: #454545;
+                    padding-bottom: 16px;
+                    text-align: center;
+                    margin-bottom: 16px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-size: 26px;
+
+                    @media (min-width: 768px) {
+                        font-size: 36px;
+                        text-align: left;
+                    }
+
+                }
+            }
+
+            .about_us_subtitle {
+                width: 100%;
+
+                p {
+                    color: #000000;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    text-align: center;
+                    font-size: 26px;
+                    margin-top: 0;
+                    margin-bottom: 16px;
+
+                    @media (min-width: 768px) {
+                        font-size: 36px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,173 @@
+.professional_illustration {
+    padding-top: 96px;
+    padding-bottom: 54px;
+    border-radius: 32px;
+    margin-bottom: 48px;
+    background-color: #f9f9f9;
+
+    @media (min-width: 768px) {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .professional_text {
+        padding: 32px 16px;
+        align-items: center;
+        background: #eeeeee;
+        border-radius: 32px;
+        margin-bottom: 32px;
+
+        @media (min-width: 768px) {
+            width: 50%;
+          
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 1.2;
+
+            margin-bottom: 32px;
+
+            @media (min-width: 768px) {
+                font-size: 36px;
+                text-align: left;
+            }
+
+          
+        }
+
+        .professional_image {
+            img {
+                width: 100%;
+                border-radius: 32px;
+                vertical-align: middle;
+            }
+        }
+
+        .line {
+            border-bottom: 2px solid #454545;
+            padding-top: 32px;
+            margin-bottom: 32px;
+        }
+
+        .button_flex {
+            @media (min-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            }
+            .professional_btn {
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: 32px;
+                text-align: center;
+             
+                
+                @media (min-width: 768px) {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                  
+                }
+                
+                a {
+
+                    text-decoration: none;
+                    color: #000000;
+
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+
+            .design_btn {
+                margin-left: -10px;
+                margin-right: -10px;
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: #000000;
+
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .professional_right {
+     
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+
+        .professional_lorem {
+            padding: 16px;
+            padding-top: 32px;
+            margin-bottom: 32px;
+            background: #c2f549;
+            border-radius: 2rem;
+            height: 100%;
+            justify-content: space-between;
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+            @media (min-width: 768px) {
+                height: auto;
+                padding:32px;
+                gap:120px;
+                align-items: baseline;
+                
+
+            }
+
+            p {
+                font-size: 28px;
+                text-align: center;
+                @media (min-width: 768px) {
+               font-size: 32px;
+               text-align: left;
+                }
+                
+            }
+
+            .lorem_btn {
+                text-align: center;
+                margin-bottom: 16px;
+
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+        }
+
+
+        .nullam {
+            font-size: 28px;
+            text-align: center;
+            padding-top: 32px;
+            background: #fff;
+            border-radius: 32px;
+            height: 100%;
+            margin-bottom: 32px;
+            @media (min-width: 768px) {
+                background: #fff;
+            border-radius: 32px;
+            padding: 32px;
+            height: 48%;
+            font-size: 36px;
+            text-align: left;
+                 }
+
+        }
+    }
+}
